@@ -4,7 +4,7 @@
 ```SQL
 SELECT title,description FROM film; 
 ```
-![image](SS/SS1.png)
+![image](../SS/SS1.png)
 
 <br />
 
@@ -13,7 +13,7 @@ SELECT title,description FROM film;
 ```SQL
 SELECT * FROM film WHERE length > 60 AND length < 75;
 ```
-![image](SS/SS2.png)
+![image](../SS/SS2.png)
 
 <br />
 
@@ -25,7 +25,7 @@ WHERE rental_rate = 0.99 AND
 replacement_cost = 12.99 OR replacement_cost=28.99;
 ```
 
-![ss3](SS/SS3.png)
+![ss3](../SS/SS3.png)
 
 <br />
 
@@ -38,7 +38,7 @@ WHERE first_name = 'Mary';
 
 Cevap: Smith
 ```
-![SS4](SS/SS4.png)
+![SS4](../SS/SS4.png)
 
 <br/>
 
@@ -51,6 +51,6 @@ WHERE NOT (length > 50)
 AND NOT (rental_rate = 2.99 or rental_rate = 4.99);
 ```
 
-![SS5](SS/SS5.png)
+![SS5](../SS/SS5.png)
 
 ---
