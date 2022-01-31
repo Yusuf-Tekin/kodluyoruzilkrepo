@@ -1,0 +1,34 @@
+# patika.dev -SQL Ödevi 9
+
+1- city tablosu ile country tablosunda bulunan şehir (city) ve ülke (country) isimlerini birlikte görebileceğimiz INNER JOIN sorgusunu yazınız.
+
+```SQL
+SELECT city.city,country.country 
+FROM city
+INNER JOIN country 
+ON city.country_id = country.country_id;
+```
+
+![SS33](../SS/SS33.png)
+
+2- customer tablosu ile payment tablosunda bulunan payment_id ile customer tablosundaki first_name ve last_name isimlerini birlikte görebileceğimiz INNER JOIN sorgusunu yazınız.
+
+```SQL
+SELECT payment_id,first_name,last_name 
+FROM customer INNER JOIN payment 
+ON customer.customer_id = payment.customer_id;
+```
+
+![SS34](../SS/SS34.png)
+
+3- customer tablosu ile rental tablosunda bulunan rental_id ile customer tablosundaki first_name ve last_name isimlerini birlikte görebileceğimiz INNER JOIN sorgusunu yazınız.
+
+```SQL
+SELECT rental_id,first_name,last_name 
+FROM customer INNER JOIN rental 
+ON customer.customer_id = rental.customer_id;
+```
+
+![SS35](../SS/SS35.png)
+
+---
